@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  1 19:53:32 2024
-
-@author: TWP
-"""
-
-import matplotlib.pyplot as plt
 from NN import Model
+import matplotlib.pyplot as plt
 
 filename = 'save/lr_0.001_bsz_128_act_tanh_sche_cos_hidden-layer_256'
 model = Model()
