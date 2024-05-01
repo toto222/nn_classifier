@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 30 10:39:41 2024
-
-@author: TWP
-"""
 import os
 import argparse
 import numpy as np
