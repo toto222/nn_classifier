@@ -1,5 +1,5 @@
 # nn_classifier
-A 3-layer neural network for image classification assignment
+This is a 3-layer neural network for image classification assignment.
 
 From the course “Neural Networks and Deep Learning” at the School of Data Science, Fudan University
 
@@ -33,4 +33,12 @@ python main_nn.py <...> --schedule exp --sche_factor 0.95
 ```
 python main_nn.py --evaluate --filename <model_ckp_path>
 ```
+
+## for reference
+In `ref_torch.py` is the same neural network implemented by pytorch, which you can use to compare with numpy's neural network if you're interested.
+
+## for hyper parameters reseaech
+`hyper_param_search.py` is used to search for appropriate hyperparameter settings, you can use it directly but it may consume more time.
+
+
 
