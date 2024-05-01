@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 30 19:31:44 2024
-
-@author: TWP
-"""
+import os
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-import os
-import numpy as np
-from utils import mnist_reader
-from NN import NN, SGD, Dataloader
+from NN import Dataloader
 import torch.optim as optim
+from utils import mnist_reader
 
 class Classifier(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, act_func=nn.ReLU()):
