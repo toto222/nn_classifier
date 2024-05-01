@@ -1,6 +1,7 @@
 # nn_classifier
 A 3-layer neural network for image classification assignment
-From the course “Neural Networks and Deep Learning” at the School of Data Science, Fudan University.
+
+From the course “Neural Networks and Deep Learning” at the School of Data Science, Fudan University
 
 Without the help of pytorch's automatic differentiation, all processes of the neural network are completed with only `numpy`, including forward propagation, gradient calculation and back propagation.
 
