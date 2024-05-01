@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  1 18:18:40 2024
-
-@author: TWP
-"""
-
 from subprocess import run
 
 # for act sigmoid 0.1 0.05 0.001
